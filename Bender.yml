@@ -10,8 +10,8 @@ package:
     - "Wolfgang Roenninger <wroennin@student.ethz.ch>"
 
 dependencies:
-  common_verification: { git: "https://github.com/OpenSiliconLabs/common_verification.git", rev: osl-dev }
-  tech_cells_generic: { git: "https://github.com/OpenSiliconLabs/tech_cells_generic.git", rev: osl-dev }
+  common_verification: { git: "git@github.com:OpenSiliconLabs/common_verification.git", rev: osl-dev }
+  tech_cells_generic: { git: "git@github.com:OpenSiliconLabs/tech_cells_generic.git", rev: osl-dev }
 
 export_include_dirs:
   - include
