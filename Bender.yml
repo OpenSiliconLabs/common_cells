@@ -11,8 +11,8 @@ package:
     - "Thomas Benz <tbenz@iis.ee.ethz.ch>"
 
 dependencies:
-  common_verification: { git: "https://github.com/pulp-platform/common_verification.git", version: 0.2.0 }
-  tech_cells_generic: { git: "https://github.com/pulp-platform/tech_cells_generic.git", version: 0.2.11 }
+  common_verification: { git: "https://github.com/OpenSiliconLabs/common_verification.git", rev: osl-dev-1 }
+  tech_cells_generic: { git: "https://github.com/OpenSiliconLabs/tech_cells_generic.git", rev: osl-dev-1 }
 
 export_include_dirs:
   - include
